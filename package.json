@@ -1,0 +1,24 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarunMourya/FirstServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KarunMourya/FirstServer/issues"
+  },
+  "homepage": "https://github.com/KarunMourya/FirstServer#readme",
+  "description": ""
+}
