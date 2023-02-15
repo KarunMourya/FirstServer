@@ -2,7 +2,6 @@ const http = require('http')
 const fs = require('fs')
 const dotenv = require('dotenv')
 dotenv.config();
-const port = 3001
 server = http.createServer(function(req,res){
   res.writeHead(200,{'Content-Type':'text/html'})
   fs.readFile('./build/index.html',function(error,data){
@@ -15,7 +14,7 @@ server = http.createServer(function(req,res){
     res.end()
   })
 })
-server.listen(process.env.POR,function(error){
+server.listen(process.env.PORT,function(error){
   if(error){
     console.log('something went wrong',error)
   }else{
